@@ -3,11 +3,12 @@
 class Constant:
     @staticmethod
     def getDefSdkLv():
-        return '25'
+        return '26'
 
     @staticmethod
     def getRes(lv):
         SDK={
+            '26':'https://raw.githubusercontent.com/android/platform_frameworks_base/oreo-dev/core/res/AndroidManifest.xml',
             '25':'https://raw.githubusercontent.com/android/platform_frameworks_base/nougat-mr1-dev/core/res/AndroidManifest.xml',
             '24':'https://raw.githubusercontent.com/android/platform_frameworks_base/nougat-dev/core/res/AndroidManifest.xml',
             '23':'https://raw.githubusercontent.com/android/platform_frameworks_base/marshmallow-dev/core/res/AndroidManifest.xml',
